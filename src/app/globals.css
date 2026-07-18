@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f3ff;
+  --foreground: #1e1b4b;
+
+  --primary: #7c3aed;
+  --secondary: #a855f7;
+  --accent: #c084fc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+  background:
+    radial-gradient(circle at top left, rgba(168, 85, 247, 0.35), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(124, 58, 237, 0.35), transparent 30%),
+    linear-gradient(135deg, #4b3c63 0%, #7c3aed 45%, #a855f7 100%);
+}
